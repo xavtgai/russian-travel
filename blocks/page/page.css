@@ -1,0 +1,7 @@
+ .page {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: repaet(7, 1fr);
+     background-color: #2A2C2F;
+     ;
+ }
