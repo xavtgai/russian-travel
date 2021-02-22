@@ -1,1 +1,5 @@
-.lead {}
+.lead {
+    margin: 0 148px 0;
+    max-width: 984px;
+    min-width: 320px;
+}

@@ -1,7 +1,8 @@
- .page {
-     display: grid;
-     grid-template-columns: repeat(4, 1fr);
-     grid-template-rows: repaet(7, 1fr);
-     background-color: #2A2C2F;
-     ;
- }
+.page {
+    background-color: #2A2C2F;
+    font-family: 'Inter', 'Arial', sans-serif;
+    color: #fff;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
