@@ -1,5 +1,7 @@
 .lead {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     max-width: 984px;
     margin: 0 auto;
 }
@@ -17,6 +19,12 @@
 }
 
 @media screen and (max-width: 767px) {
+    .lead {
+        min-width: 553px;
+    }
+}
+
+@media screen and (max-width: 425px) {
     .lead {
         min-width: 288px;
     }

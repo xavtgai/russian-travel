@@ -1,4 +1,5 @@
 .footer__link {
-    display: flex;
-    list-style: none;
+    margin-right: 18px;
+    text-decoration: none;
+    color: #fff;
 }

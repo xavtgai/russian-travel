@@ -9,3 +9,18 @@
     text-align: right;
     align-items: flex-end;
 }
+
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* широкий телефон */
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

@@ -1,6 +1,25 @@
-.cover__item {
-    min-width: 320px;
-    max-width: 1184px;
-    max-height: 740px;
-    min-height: 200px;
-}
+    .cover__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(../../../images/cover-trains.jpg);
+        background-size: cover;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .cover__item::before {
+        content: "";
+        background: black;
+        opacity: 0.3;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transition: 0.5s;
+    }
+    
+    .cover__item:hover:before {
+        opacity: 0.8;
+    }

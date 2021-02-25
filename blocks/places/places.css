@@ -1,26 +1,5 @@
 .places {
-    display: grid;
-    grid-template-columns: 460px 1fr;
-    gap 48px 40px;
-    margin-top: 100px;
-}
-
-@media screen and (max-width 1279px) {
-    .places {
-        grid-template-columns: 440px 1fr;
-        gap: 48px 32px;
-    }
-}
-
-@media screen and (max-width 1023px) {
-    .places {
-        grid-template-columns: 340px 1fr;
-        gap: 48px 28px;
-    }
-}
-
-@media screen and (max-width 767px) {
-    .places {
-        grid-template-columns: 1fr;
-    }
+    box-sizing: border-box;
+    max-width: 984px;
+    margin: 92px auto 0;
 }
