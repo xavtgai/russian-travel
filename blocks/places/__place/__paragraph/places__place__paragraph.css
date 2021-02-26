@@ -3,7 +3,7 @@
     grid-row: 2/3;
     font-size: 18px;
     line-height: 29.34px;
-    width: 484px;
+    max-width: 484px;
     margin: 0;
     padding: 0;
 }
