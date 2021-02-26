@@ -1,0 +1,13 @@
+.places__place__paragraph {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 18px;
+    line-height: 29.34px;
+    width: 484px;
+    margin: 0;
+    padding: 0;
+}
+
+.places__place__paragraph:first-of-type {
+    margin-bottom: 26px;
+}

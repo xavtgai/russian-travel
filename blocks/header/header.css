@@ -1,6 +1,8 @@
-            .header {
-                display: flex;
-                flex-direction: row;
-                width: 100%;
-                justify-content: space-between;
-            }
+ .header {
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     justify-content: space-between;
+     margin: 0 auto 50px;
+     align-items: flex-end;
+ }
