@@ -3,7 +3,7 @@
      flex-direction: row;
      width: 100%;
      justify-content: space-between;
-     margin: 28px auto 56px;
+     margin: 0 auto 56px;
      align-items: flex-end;
  }
  

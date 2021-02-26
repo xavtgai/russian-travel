@@ -10,9 +10,10 @@
     background-size: cover;
     color: #FFF;
     min-height: 740px;
-    max-width: calc(100% - 48px*2);
+    width: 100%;
     margin: 0 auto;
     text-decoration: none;
+    object-fit: cover;
 }
 
 .cover__item:before {
@@ -35,7 +36,6 @@
 @media screen and (max-width: 1279px) {
     .cover__item {
         min-height: 640px;
-        object-fit: cover;
         max-width: 100%;
     }
 }
@@ -43,7 +43,6 @@
 @media screen and (max-width: 1073px) {
     .cover__item {
         min-height: 480px;
-        object-fit: cover;
     }
 }
 
