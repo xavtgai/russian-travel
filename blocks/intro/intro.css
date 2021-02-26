@@ -1,5 +1,40 @@
 .intro {
-    margin: 92px 100px;
+    margin-top: 92px;
+    margin-left: 100px;
+    margin-bottom: 92px;
     max-width: 690px;
     max-height: 429px;
+}
+
+@media screen and (max-width: 1279px) {
+    .intro {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        max-width: 720px;
+        margin-top: 88px;
+        margin-bottom: 88px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        max-width: 600px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        max-width: 288px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+        margin-left: 0;
+    }
 }
