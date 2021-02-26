@@ -11,3 +11,13 @@
 .places__place__paragraph:first-of-type {
     margin-bottom: 26px;
 }
+
+@media screen and (max-width: 1023px) {
+    .places__place__paragraph {
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+    .places__place__paragraph:first-of-type {
+        margin-bottom: 25px;
+    }
+}

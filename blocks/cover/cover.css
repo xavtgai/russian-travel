@@ -1,3 +1,28 @@
 .cover {
     position: relative;
+    min-width: 1184px;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        min-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        min-width: 768px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        min-width: 700px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover {
+        min-width: 320px;
+    }
 }
