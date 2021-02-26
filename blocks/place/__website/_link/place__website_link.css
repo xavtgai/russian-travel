@@ -1,4 +1,4 @@
-        .places__place__website_link {
+        .place__website_link {
             text-decoration: underline;
             font-size: 18px;
             line-height: 22px;
@@ -7,6 +7,6 @@
             transition: opacity .3s linear;
         }
         
-        .places__place__website_link:hover {
+        .place__website_link:hover {
             opacity: .8;
         }
