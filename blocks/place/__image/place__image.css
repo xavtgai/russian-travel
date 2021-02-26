@@ -21,14 +21,14 @@
                     height: 320px;
                 }
             }
+            
+            @media screen and (max-width: 425px) {
+                .place__image {
+                    margin-left: -16px;
+                    min-width: 320px;
+                }
+            }
             /*      margin-left: -20px;
         margin-right: -20px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .place__image {
-        margin-left: -16px;
-        margin-right: -16px;
     }
 }

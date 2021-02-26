@@ -36,24 +36,27 @@
 @media screen and (max-width: 1279px) {
     .cover__item {
         min-height: 640px;
-        max-width: 100%;
+        object-fit: cover;
     }
 }
 
 @media screen and (max-width: 1073px) {
     .cover__item {
         min-height: 480px;
+        object-fit: cover;
     }
 }
 
 @media screen and (max-width: 425px) {
     .cover__item {
         min-height: 312px;
+        object-fit: cover;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__item {
         min-height: 200px;
+        object-fit: cover;
     }
 }
