@@ -1,0 +1,5 @@
+@media screen and (max-width: 425px) {
+    .footer__rel {
+        margin-bottom: 32px;
+    }
+}
