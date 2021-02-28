@@ -4,6 +4,8 @@
     font-weight: 400;
     max-width: 360px;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -24,8 +26,6 @@
 
 @media screen and (max-width: 320px) {
     .cover__subtitle {
-        font-size: 14px;
-        line-height: 18px;
         max-width: calc(100% - 16px*2);
     }
 }

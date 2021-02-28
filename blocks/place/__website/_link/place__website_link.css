@@ -1,12 +1,12 @@
-        .place__website_link {
-            text-decoration: underline;
-            font-size: 18px;
-            line-height: 22px;
-            font-weight: 400;
-            color: #fff;
-            transition: opacity .3s linear;
-        }
-        
-        .place__website_link:hover {
-            opacity: .8;
-        }
+.place__website_link {
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #fff;
+    transition: opacity .3s linear;
+}
+
+.place__website_link:hover {
+    opacity: .8;
+}
