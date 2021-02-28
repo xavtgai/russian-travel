@@ -6,27 +6,14 @@
 @media screen and (max-width: 1279px) {
     .cover {
         /*    min-width: 1024px;*/
-        margin: 0 -48px;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover {
         /*min-width: 768px;*/
-        margin: 0 -24px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .cover {
-        /*min-width: 700px;*/
-        margin: 0 -20px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .cover {
-        /*min-width: 320px;*/
-        margin: 0 -16px;
+        margin: 0;
     }
 }
